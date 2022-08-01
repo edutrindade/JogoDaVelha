@@ -72,7 +72,7 @@ export default function Game() {
     return (
         <View style={styles.container}>
             <StatusBar style="auto" />
-            <Text style={styles.title}>Jogo da velha</Text>
+            <Text style={styles.gameTitle}>Jogo da velha</Text>
             {
                 board.map((row, nRow) => {
                     return (

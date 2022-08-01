@@ -12,7 +12,7 @@ export default function Winner() {
     return (
         <View style={styles.container}>
             <StatusBar style="auto" />
-            <Text style={styles.title}>Jogo da velha</Text>
+            <Text style={styles.menuTitle}>Jogo da velha</Text>
 
             {
                 win === '-' &&

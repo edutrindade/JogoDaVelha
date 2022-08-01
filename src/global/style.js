@@ -8,8 +8,15 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     },
 
-    title: {
+    menuTitle: {
         fontSize: 30,
+        fontWeight: 'bold',
+        color: '#333',
+    },
+
+    gameTitle: {
+        fontSize: 30,
+        marginBottom: 30,
         fontWeight: 'bold',
         color: '#333',
     },

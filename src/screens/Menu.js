@@ -25,7 +25,7 @@ export default function Menu() {
     return (
         <View style={styles.container}>
             <StatusBar style="auto" />
-            <Text style={styles.title}>Jogo da velha</Text>
+            <Text style={styles.menuTitle}>Jogo da velha</Text>
             <Image style={{ width: '75%' }} resizeMode="contain" source={require('../assets/img/velhas.png')} />
             <Text style={styles.subtitle}>Quem irá começar?</Text>
 
