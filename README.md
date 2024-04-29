@@ -1,6 +1,7 @@
 # Jogo da Velha (app)
 
 Algumas lendas urbanas contam que o Jogo da Velha teria nascido em Portugal, na cidade de Almada no ano 545. No entanto, só foi popularizado no ano 1500, pelo descobridor Pedro Álvares Cabral, que adorava jogar este jogo durante as suas viagens. Cabral teria decidido que este jogo seria o primeiro a ser ensinado ao povo indígena no Brasil. No entanto não há como confirmar essa história.
+
 Este repositório traz o Jogo da Velha em um projeto mobile simples com JS que apresenta os conceitos básicos de desenvolvimento de aplicações móveis com React Native. Foi desenvolvido durante a produção do e-book "Programação para Dispositivos Móveis - Básico" que escrevi em 2022 para o IFMG. O projeto conta com apenas 3 telas, que dinamicamente mudam de acordo com as ações do usuário. 
 
 ## Instalação
@@ -31,9 +32,13 @@ Outra possibilidade é ter um emulador instalado em sua máquina. Ao executar o 
 
 O projeto traz o que há de mais simples no desenvolvimento com React Native. Com interfaces simples e amigável, visa facilitar a jogatina de quem curte o jogo e está tendo seu primeiro contato mobile. Além disso, estimula o aprimoramento de técnicas e de deduções lógicas para construir as regras do jogo.
 
-![Menu](https://i.ibb.co/SvKfknz/Design01.png "Menu")
+![Menu](https://i.ibb.co/hHfZyTS/Design01.png "Menu")
 
-![Game](https://i.ibb.co/SvKfknz/Design01.png "Game") 
+![Game](https://i.ibb.co/19LJNYT/Design02.png "Game") 
+
+![Winner](https://i.ibb.co/xqP7JFn/Design03.png "Winner")
+
+![Velha](https://i.ibb.co/ZHMfLr8/Design04.png "Velha")
 
 O app é bastante intuitivo, possuindo uma estilização global, rotas definidas pelo uso do React Navigation e telas (screens) tituladas: Game, Menu e Winner.
 
