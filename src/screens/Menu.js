@@ -13,34 +13,29 @@ export default function Menu() {
     ]);
 
     function startGame(player) {
-        setBoard([
+        const newBoard = [
             ['', '', ''],
             ['', '', ''],
             ['', '', ''],
-        ]);
+        ];
+        setBoard(newBoard);
 
-        navigation.navigate('game', { player: player, board: board });
+        navigation.navigate('game', { player: player, board: newBoard });
     }
 
     return (
         <View style={styles.container}>
-            <StatusBar style="auto" />
+            <StatusBar style='auto' />
             <Text style={styles.menuTitle}>Jogo da velha</Text>
-            <Image style={{ width: '75%' }} resizeMode="contain" source={require('../assets/img/velhas.png')} />
+            <Image style={{ width: '75%' }} resizeMode='contain' source={require('../assets/img/velhas.png')} />
             <Text style={styles.subtitle}>Quem irá começar?</Text>
 
             <View style={styles.inlineItems}>
-                <TouchableOpacity
-                    style={styles.box}
-                    onPress={() => startGame('X')}
-                >
+                <TouchableOpacity style={styles.box} onPress={() => startGame('X')}>
                     <Text style={styles.playerX}>X</Text>
                 </TouchableOpacity>
 
-                <TouchableOpacity
-                    style={styles.box}
-                    onPress={() => startGame('O')}
-                >
+                <TouchableOpacity style={styles.box} onPress={() => startGame('O')}>
                     <Text style={styles.playerO}>O</Text>
                 </TouchableOpacity>
             </View>
